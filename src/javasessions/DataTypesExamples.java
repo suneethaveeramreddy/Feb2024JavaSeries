@@ -60,12 +60,47 @@ public class DataTypesExamples {
 		//7. char
 		//size 2 bytes = 16 bits 
 		//unicode chars: ASCII + special uni code chars (symbolic, Chinese, Japanese)
+		//range:
+		//a-z: 97 to (97+25)122
+		//A-Z: 65 to (65+25)90
+		//0-9: 48 to 57
 		char c1 = 'a';
 		char c2 = 'A';
-		char c3	= '1';
+		char c3	= '1'; //49
+		char c33 = '2'; //50
 		char c4 = '$';
 		char gender = 'F';
 		char execution = 'Y';
+		
+		char c11 = 'b';
+		
+		System.out.println(c1); // prints a
+		System.out.println(c11); // prints A 
+		System.out.println(c1+c11);//prints sum of ASCII values of a and A
+		System.out.println(c11-c1);//1
+		
+		System.out.println(c3+c33);
+		System.out.println(c1);
+		// if we don't know the ASCII value of any character below is the formula/logic.
+		System.out.println((int)c1);
+		System.out.println((int)'@');
+		System.out.println((byte)'$');
+		
+		int go = 100;
+		char pop = 'a';
+		System.out.println(go + pop); //197
+		System.out.println(c1+""+c11);
+		System.out.println('a'+'1');
+		System.out.println(12.33+'a');
+		
+		//boolean: true/false:
+		//size: ~1 bit 
+		boolean flag = true;
+		boolean flg = false;
+		
+		int totalBillAmount = 9000;
+		int total_fee_amount = 1000;
+		
 		
 		
 
