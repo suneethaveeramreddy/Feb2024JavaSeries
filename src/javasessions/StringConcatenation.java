@@ -80,7 +80,23 @@ public class StringConcatenation {
 		System.out.println(0/0.0);//NaN
 		System.out.println(0.0/0);//NaN
 		
-		System.out.println('a');
+		//System.out.println('a'/0); AE
+		System.out.println('a'/'0');//97/48
+		
+		//-128 to 127
+		
+		byte b1 = 10; 
+		byte b2 = 20;
+		/*
+		 * b1 and b2 can be anything suppose if b1 =125 then the sum will be 
+		 * greater than the range of byte i.e., -128 to 127
+		 */
+		//byte b3 = b1+b2; //throws error cannot convert from int to Byte
+		int b3=b1+b2;
+		System.out.println(b3);
+		
+		byte h = 065;
+		System.out.println(h);
 		
 		
 		
