@@ -95,8 +95,12 @@ public class StringConcatenation {
 		int b3=b1+b2;
 		System.out.println(b3);
 		
-		byte h = 065;
+		byte h = 065;//octal number -- base of 8
 		System.out.println(h);
+		//065 =(0*8^2)+(6*8^1)+(5*8^0)
+		
+		
+		
 		
 		
 		
