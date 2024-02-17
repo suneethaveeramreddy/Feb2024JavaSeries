@@ -97,10 +97,20 @@ public class StringConcatenation {
 		
 		byte h = 065;//octal number -- base of 8
 		System.out.println(h);
-		//065 =(0*8^2)+(6*8^1)+(5*8^0)
+		//065 =(0*8^2)+(6*8^1)+(5*8^0) = 0+ 48 + 5 = 53
 		
+		short t = 0736;//0-7
+		System.out.println(t);
 		
+		int u = 0765676543;
+		System.out.println(u);
+		//0765676543 = (0 × 8⁹) + (7 × 8⁸) + (6 × 8⁷) + (5 × 8⁶) + (6 × 8⁵) + (7 × 8⁴) + (6 × 8³) + (5 × 8²) + (4 × 8¹) + (3 × 8⁰) = 131562851
 		
+		byte x1 = 125;
+		byte x2 = 120;
+		
+		byte x3 = (byte) (x1+x2);
+		System.out.println(x3);//245-256 = -11
 		
 		
 		
