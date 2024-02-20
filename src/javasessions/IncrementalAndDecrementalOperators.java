@@ -128,6 +128,10 @@ public class IncrementalAndDecrementalOperators {
 		System.out.println("j=" + j);//29
 		System.out.println("k=" + k);//-21
 		
+		int m=0;
+		int n=0;
+		int ppp= --m * --n *n-- *m--;// -1*-1*-1*-1=1
+		System.out.println(ppp);//1
 		
 		
 		
