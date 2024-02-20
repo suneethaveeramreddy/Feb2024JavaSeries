@@ -90,6 +90,46 @@ public class IncrementalAndDecrementalOperators {
 		char ch='0';
 		System.out.println(++ch);//1
 		
+		char ch1='$';
+		System.out.println(++ch1);//%
+		
+		char ch2='a';
+		System.out.println(ch2++);//a
+		System.out.println(ch2);//b
+		
+		//boolean flag= true;
+		//System.out.println(flag++);
+		
+		String s="hello";
+		//System.out.println(s++);
+		
+		int e1 = 2;
+		int e2 = e1++ + ++e1;
+		System.out.println(e1);//4
+		System.out.println(e2);//6
+		
+		int l1 = 2;
+		int l2 = l1++ - l1++ + l1--;
+		System.out.println(l1);//3
+		System.out.println(l2);//3
+		
+		int a1=1;
+		int b1=2;
+		
+		System.out.println(--b1 - ++a1 + ++b1 - --a1);//0
+		System.out.println(a1);//1
+		System.out.println(b1);//2
+		
+		int i=19;//19//18//19
+		int j=29;//29
+		int k;
+		k = i-- - i++ + --j - ++j + --i - j-- + ++i -j++;//19-18+28-29+18-29+19-28//-20
+		System.out.println("i=" + i);//19
+		System.out.println("j=" + j);//29
+		System.out.println("k=" + k);//-21
+		
+		
+		
 		
 	}
 
