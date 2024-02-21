@@ -74,7 +74,42 @@ public class ConditionalOperatorsConcept {
 		} else {
 			System.out.println("incorrect marks");
 		}
-
+		
+		//if - if - if - if 
+//		String browser="chrome";
+//		if(browser.equals("chrome")) {
+//			System.out.println("launch chrome");
+//		}
+//		if(browser.equals("firefox")) {
+//			System.out.println("launch firefox");
+//		}
+//		if(browser.equals("safari")) {
+//			System.out.println("launch safari");
+//		}
+//		if(browser.equals("edge")) {
+//			System.out.println("launch edge");
+//		}
+//		else {
+//			System.out.println("pls pass the right browser..."+ browser);
+//		}
+		
+		//if - elseif 
+		String browser="chrome";
+		if(browser.equals("chrome")) {
+			System.out.println("launch chrome");
+		}
+		else if (browser.equals("firefox")) {
+			System.out.println("launch firefox");
+		}
+		else if (browser.equals("safari")) {
+			System.out.println("launch safari");
+		}
+		else if (browser.equals("edge")) {
+			System.out.println("launch edge");
+		}
+		else {
+			System.out.println("plz pass the right browser...." + browser);
+		}
 	}
 
 }
