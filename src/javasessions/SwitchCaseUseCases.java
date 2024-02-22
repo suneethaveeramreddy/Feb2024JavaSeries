@@ -54,7 +54,30 @@ public class SwitchCaseUseCases {
 		default:
 			System.out.println("no env is found...." +envName);
 			break;
+		} 
+		
+		//cross browser testing:
+		//days in a week/ months in a year
+		//booking app --- uber:
+		String carType="mini";
+		int persons=4;
+		switch (carType) {
+		case "mini":
+				if(persons<=4) {
+					System.out.println("mini is allocated");
+				}
+			break;
+		case "sedan":
+			if(persons>=5) {
+				System.out.println("sedan is allocated");
+			}
+		break;
+		default:
+			break;
 		}
+		//user based permissions//RBAC: admin, customer, seller, partner, vendor
+		//run test cases: sanity, smoke, regression, prod
+		//loan type : home , car ,educational, personal
 
 	}
 
