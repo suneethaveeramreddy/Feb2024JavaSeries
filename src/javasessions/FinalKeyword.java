@@ -9,6 +9,9 @@ public class FinalKeyword {
 		
 		int a=10;
 		a=20;
+		a=30;
+		a=40;
+		System.out.println(a);
 		
 		final int days=7;
 		//days=10;
