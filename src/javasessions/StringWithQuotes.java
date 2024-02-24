@@ -19,8 +19,10 @@ public class StringWithQuotes {
 		
 		//a[text()='swecha']
 		String userName="Swecha";
-		String xpath="//a[text()='"+userName+"']"; 
+		String xpath="//a[text()='"+userName+"']";
+		String xpathWithDoubleQuotes="//a[text()=\""+userName+"\"]"; 
 		System.out.println(xpath);
+		System.out.println(xpathWithDoubleQuotes);
 	}
 
 }
