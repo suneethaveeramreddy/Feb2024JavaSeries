@@ -55,13 +55,66 @@ public class LoopsConcept {
 		// calendar:
 		// carousel button :  The carousel is a slideshow for cycling through a series of
 		// content, built with CSS 3D transforms and a bit of JavaScript
-		
+		System.out.println("--------------------");
 		//FOR LOOP:
 		//1 to 10
 		for(int j=1;j<=10;j++)
 		{
 			System.out.println(j);
 		}
+		//
+		/*
+		 * for(int p=1;p<=10;) 
+		 * { 
+		 * System.out.println(p);//11111111111111111 
+		 * }
+		 */
+		System.out.println("=======================");
+		
+		for(int m=1;m<=10;m++) {
+			System.out.println(m);//13579
+			m++;
+		}
+		
+		System.out.println("==============================");
+		
+		for(;;) {
+			System.out.println("bye");
+			break;
+		}
+		//
+		System.out.println("=================================");
+		for(int run=1;run<=100; run++) {
+			System.out.println(run);
+			if(run==0) {
+				System.out.println("DUCK....Bye");
+				break;
+			}
+			System.out.println("Hello");
+		}
+		
+		//Use cases for loop
+		//1. use for loop when no of iterations are fixed 
+		// to fetch values from the array 
+		System.out.println("==============================");
+		int arr[]=new int[4];
+		//0 to 3
+		arr[0]=100;
+		arr[1]=200;
+		arr[2]=300;
+		arr[3]=400;
+		
+		for(int n=0;n<arr.length;n++) {
+			System.out.println(arr[n]);
+		}
+		//drop down -- month -- 1 to 12
+		//country drop down 
+		//menu - sub menus 
+		//No. of subjects in Exam
+		//Total no of semesters
+		
+		
+		
 	}
 
 }

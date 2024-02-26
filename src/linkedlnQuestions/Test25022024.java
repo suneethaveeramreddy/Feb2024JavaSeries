@@ -6,8 +6,8 @@ package linkedlnQuestions;
 		System.out.println("Static Method");
 	}
 
- }
- public class MainClass {
+ //}
+ //public class MainClass {
 
 	public static void main(String[] args) {
 		Test25022024 test25022024 = null;
