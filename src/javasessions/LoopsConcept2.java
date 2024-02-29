@@ -65,6 +65,68 @@ public class LoopsConcept2 {
 			}
 		}
 		
+		//odd/even numbers with %
+		//num % 2 == 0 ---> even 
+		
+		System.out.println("-------------------");
+		//double with the loop: 
+		
+		for(double d=1.0;d<=10.0;d++) {
+			System.out.println(d);
+		}
+		
+		//1.0 1.1 1.2 
+		/*
+		 * for(double c=1.0;c<=10.0;c=c+0.1) { 
+		 * System.out.println(c); 
+		 * }
+		 */
+		System.out.println("========print a to z ASCII table============");
+		//char: a to z 
+		for(char c='a';c<='z';c++) {
+			System.out.println(c + "=" + (int)c);
+		}
+		
+		System.out.println("=======print A to Z ASCII table==============");
+		//char: A to Z 
+		for(char d='A';d<='Z';d++) {
+			System.out.println(d + "="+ (int)d);
+		}
+		//
+		for(char c='a';c<='z';c++)
+		{
+			System.out.println(c);
+			if(c=='y') {
+				System.out.println("execute my test cases");
+				break;
+			}
+		}
+		System.out.println("-----------");
+		//
+		int count = 0;
+		for(;;)
+		{
+			System.out.println("bye");
+			if(count==5) {
+				break;
+			}
+			count++;
+		}
+		//
+		System.out.println("=====================");
+		int pointer=0;
+		while(true) {
+			System.out.println("checking the element");
+			if(pointer==10) {
+				System.out.println("element is displayed....click on ele");
+				break;
+			}
+			pointer++;
+		}
+		
+		//for - each with arrays
+		//streams -- lambda
+		
 	}
 	
 
