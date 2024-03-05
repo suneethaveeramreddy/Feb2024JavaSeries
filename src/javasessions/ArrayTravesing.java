@@ -90,6 +90,15 @@ public class ArrayTravesing {
 		for(int j=emp.length-1;j>=0;j--) {
 			System.out.println(emp[j]);
 		}
+		System.out.println("========================");
+		
+		//reverse order with for each loop
+		count=emp.length-1;
+		for(Object e: emp) {
+			System.out.println(count+"="+e);
+			count--;
+			
+		}
 
 	}
 
