@@ -93,11 +93,11 @@ public class ArrayTravesing {
 		System.out.println("========================");
 		
 		//reverse order with for each loop
-		count=emp.length-1;
-		for(Object e: emp) {
-			System.out.println(count+"="+e);
-			count--;
-			
+		//count=emp.length-1;
+		int i=emp.length-1;
+		for(Object e : emp) {
+			System.out.println(i+" "+emp[i]);
+			i--;
 		}
 
 	}
