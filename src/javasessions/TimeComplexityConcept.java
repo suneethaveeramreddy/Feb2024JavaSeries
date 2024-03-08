@@ -63,6 +63,30 @@ public class TimeComplexityConcept {
 				System.out.println();
 			}
 			//()()() =n^3+n^2+n+1= o(n^3)
+			
+			//binary search: 25
+			//1 to 30 --len=30
+			//li = 0
+			//hi =29
+			
+			//30/2 --15+15 //15--> 15/2 --> 7+8 
+			//8 --> 8/2 --> 4+4 --> 4/2 =2 --> 1+1
+			//n --> n/2 --> n/4 --> n/8
+			//generalized
+			//k = n/2
+			//log(k)=log(n/2)
+			//log(k)=log n - log 2 ==> log n - 1 ==> log n
+			
+			//8/2 --> 4/2 --> 2/2 --> 1
+			//8 --> 0 to 7 --> 
+			
+			// why base 2 because we are dividing by 2
+			//divided by 2 --> log with base 2
+			//divided by 3 --> log with base 3
+			
+			
+			
+			
 		} 
 	}
 
