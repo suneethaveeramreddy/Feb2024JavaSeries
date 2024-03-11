@@ -56,7 +56,19 @@ public class ArrayListConcept {
 		//double --> Double 
 		
 		//diff types of data in AL:
-		ArrayList<Object> empDataList=new ArrayList<Object>();
+		ArrayList<Object> empDataList=new ArrayList<Object>();//vc=10,pc=0
+		empDataList.add("Manisha");
+		empDataList.add(25);
+		empDataList.add(34.55);
+		empDataList.add('f');
+		empDataList.add(true);
+		
+		ArrayList<String> monthsList=new ArrayList<String>();//vc=10, pc=0
+		monthsList.add("JAN");
+		monthsList.add("FEB");
+		monthsList.add("MAR");
+		
+		
 		
 		
 		
