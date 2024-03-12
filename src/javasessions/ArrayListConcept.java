@@ -68,6 +68,9 @@ public class ArrayListConcept {
 		monthsList.add("FEB");
 		monthsList.add("MAR");
 		
+		//50 products -- sept
+		//nov -- 1000 -- 5000
+		
 		
 		
 		
