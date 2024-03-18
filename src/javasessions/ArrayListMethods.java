@@ -66,12 +66,32 @@ public class ArrayListMethods {
 		List<String> browserNamesList = Arrays.asList(browser);
 		System.out.println(browserNamesList.size());
 		
-		
+		System.out.println("=========================");
 		Integer num1[]= {12,34,55,11,22,33};
+		//array to arraylist
 		List<Integer> numberCountList = Arrays.asList(num1);
 		System.out.println(numberCountList.size());
 		
+		//
+		System.out.println("==========================");
+		ArrayList<String> list=new ArrayList<String>(){
+			{
+				add("Java");
+				add("Python");
+				add("Ruby");
+			}
+		};
+		System.out.println(list.size());
+		list.add("c#");
+		System.out.println(list.size());
 		
+		System.out.println("===========================");
+		
+		//Immutable List
+		//List<Integer> nList = List.of(1,2,3,4,5);
+		
+		
+
 	}
 
 }
