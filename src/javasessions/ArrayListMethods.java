@@ -87,8 +87,9 @@ public class ArrayListMethods {
 		
 		System.out.println("===========================");
 		
-		//Immutable List
+		//Immutable List ---It cannot be changed now -- no add/remove
 		//List<Integer> nList = List.of(1,2,3,4,5);
+		
 		
 		
 
