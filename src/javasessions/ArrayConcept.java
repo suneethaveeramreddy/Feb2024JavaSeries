@@ -10,7 +10,7 @@ public class ArrayConcept {
 		// int array:
 		int k[] = new int[4];
 		// lowest index of the array = li =0
-		// highest index of the array = hi = 4 ---> len -1
+		// highest index of the array = hi = 3 ---> len -1
 		// length = 4 --> hi+1
 		// range : 0 to 3
 
