@@ -89,8 +89,8 @@ public class ArrayListMethods {
 		
 		//Immutable List ---It cannot be changed now -- no add/remove
 		//List<Integer> nList = List.of(1,2,3,4,5);
-		List<Integer> nList = List.of(1,2,3,4,5);
-		System.out.println();
+		//List<Integer> nList = List.of(1,2,3,4,5);
+		//System.out.println();
 		
 		
 		

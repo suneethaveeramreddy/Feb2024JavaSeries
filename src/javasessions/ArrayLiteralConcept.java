@@ -50,14 +50,6 @@ public class ArrayLiteralConcept {
 			System.out.print(e+" ");
 		}
 		
-		
-		
-				
-		
-		
-		
-				
-
 	}
 
 }
