@@ -92,7 +92,7 @@ public class ArrayListMethods {
 		//List<Integer> nList = List.of(1,2,3,4,5);
 		//System.out.println();
 		
-		
+		//List<Integer> nList = List.of(1,2,3,4,5);
 		
 
 	}
