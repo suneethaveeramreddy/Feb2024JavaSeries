@@ -92,7 +92,47 @@ public class ArrayListMethods {
 		//List<Integer> nList = List.of(1,2,3,4,5);
 		//System.out.println();
 		
-		//List<Integer> nList = List.of(1,2,3,4,5);
+		//
+		ArrayList<String> monthsList = new ArrayList<String>();//vc=10, pc=0
+		monthsList.add("JAN");
+		monthsList.add("FEB");
+		monthsList.add("MAR");
+		monthsList.add("APR");
+		monthsList.add("MAY");
+		monthsList.add("JUN");
+		//vc=4, pc=6
+		
+		monthsList.trimToSize();//trim the VC to the current pc
+		//vc=6,pc=6
+		//vc=6/2=3
+		
+		monthsList.add(0,"Month");
+		System.out.println(monthsList);
+		
+		Collections.swap(monthsList, 0, 1);
+		System.out.println(monthsList);
+		
+		Collections.reverse(monthsList);
+		System.out.println(monthsList);
+		
+		List<Object> ls = Collections.emptyList();
+		System.out.println(ls.size());
+		
+		Collections.sort(monthsList);
+		System.out.println(monthsList);
+		
+		ArrayList<Integer> numsList = new ArrayList<Integer>(Arrays.asList(1,4,11,22,2,34));
+		Collections.sort(numsList);
+		System.out.println(numsList);
+		Collections.reverse(numsList);
+		System.out.println(numsList);
+		
+		// add a value in the middle of the list;
+		int middleIndex=numsList.size()/2;
+		numsList.add(middleIndex, 43);
+		System.out.println(numsList);
+		
+		
 		
 
 	}
