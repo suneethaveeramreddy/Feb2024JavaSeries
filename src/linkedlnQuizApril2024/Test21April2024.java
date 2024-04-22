@@ -10,6 +10,7 @@ public class Test21April2024 {
 		System.out.println(String.valueOf(c));//1
 		int a = Integer.parseInt(String.valueOf(c));//1
 		System.out.println(a);//1
+		
 	}
 
 }
