@@ -19,8 +19,24 @@ public class Employee {
 			Employee obj=new Employee();
 			//employee - class name
 			// obj --> Object reference name
-			//new --> keyword to create the object 
+			//new --> is keyword to create the object 
 			//new Employee() --> Object 
+			
+		obj.name="Tom";
+		obj.age=20;
+		obj.salary=12.33;
+		obj.city="LA";
+		
+		System.out.println(obj.name);
+		System.out.println(obj.age);
+		
+		Employee obj1=new Employee();
+		
+		System.out.println(obj1.name);
+		System.out.println(obj1.age);
+		System.out.println(obj1.salary);
+		System.out.println(obj1.city);
+		
 			
 	}
 
