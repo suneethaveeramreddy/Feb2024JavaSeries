@@ -15,16 +15,38 @@ public class Student {
 		s1.grade='A';
 		
 		Student s2=new Student();
-		s1.name="Mitaj";
-		s1.marks=95;
-		s1.grade='A';
+		s2.name="Mitaj";
+		s2.marks=95;
+		s2.grade='A';
 
 		Student s3=new Student();
-		s1.name="Vinayk";
-		s1.marks=60;
-		s1.grade='C';
+		s3.name="Vinayk";
+		s3.marks=60;
+		s3.grade='C';
 		
-		System.out.println(s1.name + " " + s1.marks);
+		System.out.println(s1.name + " " + s1.marks + " " + s1.grade);
+		System.out.println(s2.name + " " + s2.marks + " " + s2.grade);
+		System.out.println(s3.name + " " + s3.marks + " " + s3.grade);
+		
+		System.out.println(s1);
+		
+		//no ref object:
+		new Student().name="Aman";
+		new Student().marks=80;
+		
+		//just the ref name:
+		Student s4;
+		s4=new Student();
+		s4.name="Naveen";
+		
+		//Null Reference Object 
+		Student s5=new Student();
+		s5=null;
+		
+		s5.name="Peter";
+		System.out.println(s5.name);
+		
+		
 	}
 
 }
