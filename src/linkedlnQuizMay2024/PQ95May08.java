@@ -1,6 +1,6 @@
 package linkedlnQuizMay2024;
 
-public class PQMay08 {
+public class PQ95May08 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
